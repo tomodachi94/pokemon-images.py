@@ -1,0 +1,28 @@
+name: Linting
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  lint:
+    runs-on: ubuntu-20.04
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+      - uses: cachix/install-nix-action@v19
+        with:
+          nix_path: nixpkgs=channel:nixos-unstable
+      - name: Run ruff
+        run: "nix-shell --run 'ruff .'"
+      - name: Run mypy
+        run: "nix-shell --run 'mypy ./pokemon_images/'"
