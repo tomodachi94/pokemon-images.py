@@ -1,0 +1,24 @@
+name: Unit testing
+
+permissions:
+  contents: read
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  lint:
+    runs-on: ubuntu-20.04
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+      - uses: cachix/install-nix-action@v19
+        with:
+          nix_path: nixpkgs=channel:nixos-unstable
+      - name: Run unit tests
+        run: "nix-shell --run 'python pokemon_images/tests.py'"
