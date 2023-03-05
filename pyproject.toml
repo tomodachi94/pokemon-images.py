@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pokemon-images"
-version = "0.1.0"
+version = "1.0.0"
 description = "Randomly get images of Pokémon from the official Pokémon website"
 authors = ["Tomodachi94"]
 license = "MIT"
