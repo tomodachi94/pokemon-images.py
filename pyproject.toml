@@ -4,6 +4,7 @@ version = "1.0.0"
 description = "Randomly get images of Pokémon from the official Pokémon website"
 authors = ["Tomodachi94"]
 license = "MIT"
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.5"
