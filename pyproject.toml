@@ -5,6 +5,13 @@ description = "Randomly get images of Pokémon from the official Pokémon websit
 authors = ["Tomodachi94"]
 license = "MIT"
 readme = "README.md"
+urls = {
+	"Homepage" = "https://github.com/tomodachi94/pokemon-images.py",
+	"Source" = "https://github.com/tomodachi94/pokemon-images.py",
+	"Bug Tracker" = "https://github.com/tomodachi94/pokemon-images.py/issues"
+}
+
+classifiers = [ "Topic :: Internet :: WWW/HTTP", "Topic :: Multimedia", "Topic :: Utilities", "Typing :: Typed" ]
 
 [tool.poetry.dependencies]
 python = "^3.5"
