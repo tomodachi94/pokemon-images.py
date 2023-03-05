@@ -17,7 +17,7 @@ def get_url_from_number(image_number: int):
     elif len(image_number) == 4:
         padded = image_number
     else:
-        padded = image_number
+        raise ValueError
 
     return f"https://assets.pokemon.com/assets/cms2/img/pokedex/full/{padded}.png"
 
