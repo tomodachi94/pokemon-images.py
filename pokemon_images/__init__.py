@@ -6,16 +6,19 @@ def get_url_from_number(image_number: int):
     """Gets a Pokemon image URL from an image number."""
     padded: str
 
-    if len(str(image_number)) == 1:
-        padded = f"{image_number:02d}"
-    elif len(str(image_number)) == 2:
-        padded = f"{image_number:01d}"
-    elif len(str(image_number)) == 3:
-        padded = str(image_number)
-    elif len(str(image_number)) == 4:
-        padded = str(image_number)
+    image_number = str(image_number)
+
+    if len(image_number) == 1:
+        padded = "00" + image_number
+    elif len(image_number) == 2:
+        print("ye")
+        padded = "0" + image_number
+    elif len(image_number) == 3:
+        padded = image_number
+    elif len(image_number) == 4:
+        padded = image_number
     else:
-        padded = ""
+        padded = image_number
 
     return f"https://assets.pokemon.com/assets/cms2/img/pokedex/full/{padded}.png"
 
