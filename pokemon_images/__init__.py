@@ -11,7 +11,6 @@ def get_url_from_number(image_number: int):
     if len(image_number) == 1:
         padded = "00" + image_number
     elif len(image_number) == 2:
-        print("ye")
         padded = "0" + image_number
     elif len(image_number) == 3:
         padded = image_number
