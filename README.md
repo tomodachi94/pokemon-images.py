@@ -11,3 +11,5 @@ There are no accented `é`s in this library to aid typing on keyboards that do n
 This library is fully typed and fully documented with Python docstrings.
 
 Contributions are welcome, but this library is considered feature-complete.
+
+The project has a space [in the Tomodachi Labs Discord server](https://discord.gg/Xs3VKNJrMb).
