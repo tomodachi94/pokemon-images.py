@@ -10,6 +10,7 @@ classifiers = [ "Topic :: Internet :: WWW/HTTP", "Topic :: Multimedia", "Topic :
 Homepage = "https://github.com/tomodachi94/pokemon-images.py"
 Source = "https://github.com/tomodachi94/pokemon-images.py"
 "Bug Tracker" = "https://github.com/tomodachi94/pokemon-images.py/issues"
+Discord = "https://discord.gg/Xs3VKNJrMb"
 
 [tool.poetry.dependencies]
 python = "^3.5"
