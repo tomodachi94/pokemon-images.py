@@ -21,4 +21,4 @@ jobs:
         with:
           nix_path: nixpkgs=channel:nixos-unstable
       - name: Run unit tests
-        run: "nix-shell --run 'python pokemon_images/tests.py'"
+        run: "nix develop .# --command just test"

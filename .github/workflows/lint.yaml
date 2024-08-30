@@ -22,7 +22,5 @@ jobs:
       - uses: cachix/install-nix-action@v19
         with:
           nix_path: nixpkgs=channel:nixos-unstable
-      - name: Run ruff
-        run: "nix-shell --run 'ruff .'"
-      - name: Run mypy
-        run: "nix-shell --run 'mypy ./pokemon_images/'"
+      - name: Run just lint
+        run: "nix develop .# --command just lint"

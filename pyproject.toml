@@ -13,9 +13,13 @@ Source = "https://github.com/tomodachi94/pokemon-images.py"
 Discord = "https://discord.gg/Xs3VKNJrMb"
 
 [tool.poetry.dependencies]
-python = "^3.5"
+python = "^3.8"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.test]
+optional = true
+
+[tool.poetry.group.test.dependencies]
+requests = "^2.32"
 
 [tool.ruff]
 respect-gitignore = true

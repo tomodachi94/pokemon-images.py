@@ -1,7 +1,8 @@
 import unittest
 
 import requests # Needed for testing that generated URLs return valid contents
-import __init__ as pokemon_images
+import pokemon_images.__init__ as pokemon_images
+
 
 class URLsTestCase(unittest.TestCase):
     """Tests for `pokemon_images.get_url_from_number`."""

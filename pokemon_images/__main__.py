@@ -1,4 +1,4 @@
-import __init__ as pokemon_images
+import pokemon_images.__init__ as pokemon_images
 
 def main():
     print(pokemon_images.get_random_url())
