@@ -23,6 +23,7 @@
             ruff
 			just
             python3Packages.mypy
+			reuse
           ];
         };
       });

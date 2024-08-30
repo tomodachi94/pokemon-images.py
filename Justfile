@@ -15,7 +15,10 @@ mypy:
 	poetry install
 	poetry run mypy -m pokemon_images
 
-lint: ruff mypy
+reuse:
+	reuse lint
+
+lint: ruff mypy reuse
 
 publish:
 	poetry build
