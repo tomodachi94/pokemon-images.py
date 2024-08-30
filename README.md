@@ -19,3 +19,5 @@ This library is fully typed and fully documented with Python docstrings.
 Contributions are welcome, but this library is considered feature-complete.
 
 The project has a space [in the Tomodachi Labs Discord server](https://discord.gg/Xs3VKNJrMb).
+
+This project is [published to PyPI](https://pypi.org/project/pokemon-images/).
