@@ -1,6 +1,6 @@
 import random
 
-POKEMON_TOTAL = 1008 # Increment this as more Pokemon are added
+POKEMON_TOTAL = 1025 # Increment this as more Pokemon are added
 
 def get_url_from_number(image_number: int):
     """Gets a Pokemon image URL from an image number."""
