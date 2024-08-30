@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2024 Tomodachi94 and contributors
+#
+# SPDX-License-Identifier: MIT
+
 import pokemon_images.__init__ as pokemon_images
 
 def main():

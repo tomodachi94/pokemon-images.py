@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2024 Tomodachi94 and contributors
+#
+# SPDX-License-Identifier: MIT
+
 import random
 
 POKEMON_TOTAL: int = 1025 # Increment this as more Pokemon are added

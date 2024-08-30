@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2024 Tomodachi94 and contributors
+#
+# SPDX-License-Identifier: MIT
+
 import unittest
 
 import requests # Needed for testing that generated URLs return valid contents

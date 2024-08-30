@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2024 Tomodachi94 and contributors
+#
+# SPDX-License-Identifier: MIT
+
 name: Unit testing
 
 permissions:

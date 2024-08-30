@@ -1,4 +1,10 @@
-## START TEMPLATE ##
+# SPDX-License-Identifier: CC0-1.0
+#
+# SPDX-SnippetCopyrightText: Tomodachi94 and contributors
+
+# SPDX-SnippetBegin
+# SPDX-License-Identifier: CC0-1.0
+# SPDX-SnippetCopyrightText: GitHub, Inc. and contributors (https://github.com/github/gitignore/commits/main/Python.gitignore)
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -130,6 +136,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-## END TEMPLATE ##
+# SPDX-SnippetEnd
 
 .ruff_cache

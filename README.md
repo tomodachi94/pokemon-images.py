@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2024 Tomodachi94 and contributors
+
+SPDX-License-Identifier: MIT
+-->
+
 # `pokemon_images.py`
 
 A small library with no dependencies to get a random image of a Pokémon.
